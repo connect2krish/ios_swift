@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73288E75-3BEA-4410-AAA1-FBB3DE9AE0DA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>mathtables</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>91C63C53C29137305D4CA22696EDF83E8E14F697</key>
+		<string>github.com:connect2krish/ios_swift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>mathtables/mathtables.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>91C63C53C29137305D4CA22696EDF83E8E14F697</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:connect2krish/ios_swift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>91C63C53C29137305D4CA22696EDF83E8E14F697</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>91C63C53C29137305D4CA22696EDF83E8E14F697</string>
+			<key>IDESourceControlWCCName</key>
+			<string>swiftExperiments</string>
+		</dict>
+	</array>
+</dict>
+</plist>
