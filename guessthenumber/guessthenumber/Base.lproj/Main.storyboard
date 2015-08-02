@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="guessthenumber" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guess the Number" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8a-2E-rub">
+                                <rect key="frame" x="228" y="54" width="145" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="number 0-10" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fSU-ha-CFg">
+                                <rect key="frame" x="252" y="139" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                <connections>
+                                    <action selector="numberField:" destination="vXZ-lx-hvc" eventType="editingDidEnd" id="aVo-7Q-hNE"/>
+                                </connections>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ydy-3S-3LU">
+                                <rect key="frame" x="279" y="254" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mh3-Rb-mYV">
+                                <rect key="frame" x="279" y="189" width="41" height="30"/>
+                                <state key="normal" title="guess">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="guessButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="DjR-HR-xXj"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="Mh3-Rb-mYV" secondAttribute="centerX" id="Bhj-M1-5Wn"/>
+                            <constraint firstItem="Mh3-Rb-mYV" firstAttribute="top" secondItem="fSU-ha-CFg" secondAttribute="bottom" constant="20" id="J2o-pH-eZq"/>
+                            <constraint firstItem="Ydy-3S-3LU" firstAttribute="top" secondItem="Mh3-Rb-mYV" secondAttribute="bottom" constant="35" id="Qo6-PD-NeK"/>
+                            <constraint firstAttribute="centerX" secondItem="Ydy-3S-3LU" secondAttribute="centerX" id="afY-m1-FCt"/>
+                            <constraint firstAttribute="centerX" secondItem="fSU-ha-CFg" secondAttribute="centerX" id="f6t-kP-jsY"/>
+                            <constraint firstItem="Y8a-2E-rub" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="34" id="j8m-ok-cxP"/>
+                            <constraint firstAttribute="centerX" secondItem="Y8a-2E-rub" secondAttribute="centerX" id="qM7-4x-F9E"/>
+                            <constraint firstItem="fSU-ha-CFg" firstAttribute="top" secondItem="Y8a-2E-rub" secondAttribute="bottom" constant="64" id="yWr-Wr-b8t"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="numberField" destination="fSU-ha-CFg" id="C9J-tW-Rz1"/>
+                        <outlet property="result" destination="Ydy-3S-3LU" id="IlP-sh-RzZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
