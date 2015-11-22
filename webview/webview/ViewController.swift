@@ -10,9 +10,29 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var webView: UIWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let url = NSURL(string: "http://krishlogic.net");
+        
+        let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {
+            (data, response, error) in
+            
+            if(error == nil) {
+                
+                var urlContent = NSString(data: data!, encoding: NSUTF8StringEncoding)!
+                
+                self.webView.loadHTMLString(urlContent as String, baseURL: nil)
+                
+            }
+            
+        }
+        
+        task.resume();
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +40,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 
