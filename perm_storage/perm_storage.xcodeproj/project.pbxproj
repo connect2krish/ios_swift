@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A9523631C0169EB0070B4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9523621C0169EB0070B4D2 /* AppDelegate.swift */; };
+		5A9523651C0169EB0070B4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9523641C0169EB0070B4D2 /* ViewController.swift */; };
+		5A9523681C0169EB0070B4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9523661C0169EB0070B4D2 /* Main.storyboard */; };
+		5A95236A1C0169EB0070B4D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A9523691C0169EB0070B4D2 /* Assets.xcassets */; };
+		5A95236D1C0169EB0070B4D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A95236B1C0169EB0070B4D2 /* LaunchScreen.storyboard */; };
+		5A9523781C0169EB0070B4D2 /* perm_storageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9523771C0169EB0070B4D2 /* perm_storageTests.swift */; };
+		5A9523831C0169EB0070B4D2 /* perm_storageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A9523821C0169EB0070B4D2 /* perm_storageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A9523741C0169EB0070B4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9523571C0169EB0070B4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A95235E1C0169EB0070B4D2;
+			remoteInfo = perm_storage;
+		};
+		5A95237F1C0169EB0070B4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A9523571C0169EB0070B4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A95235E1C0169EB0070B4D2;
+			remoteInfo = perm_storage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A95235F1C0169EB0070B4D2 /* perm_storage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = perm_storage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9523621C0169EB0070B4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A9523641C0169EB0070B4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A9523671C0169EB0070B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A9523691C0169EB0070B4D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A95236C1C0169EB0070B4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A95236E1C0169EB0070B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9523731C0169EB0070B4D2 /* perm_storageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perm_storageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9523771C0169EB0070B4D2 /* perm_storageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perm_storageTests.swift; sourceTree = "<group>"; };
+		5A9523791C0169EB0070B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A95237E1C0169EB0070B4D2 /* perm_storageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = perm_storageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A9523821C0169EB0070B4D2 /* perm_storageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = perm_storageUITests.swift; sourceTree = "<group>"; };
+		5A9523841C0169EB0070B4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A95235C1C0169EB0070B4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9523701C0169EB0070B4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A95237B1C0169EB0070B4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A9523561C0169EB0070B4D2 = {
+			isa = PBXGroup;
+			children = (
+				5A9523611C0169EB0070B4D2 /* perm_storage */,
+				5A9523761C0169EB0070B4D2 /* perm_storageTests */,
+				5A9523811C0169EB0070B4D2 /* perm_storageUITests */,
+				5A9523601C0169EB0070B4D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A9523601C0169EB0070B4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A95235F1C0169EB0070B4D2 /* perm_storage.app */,
+				5A9523731C0169EB0070B4D2 /* perm_storageTests.xctest */,
+				5A95237E1C0169EB0070B4D2 /* perm_storageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A9523611C0169EB0070B4D2 /* perm_storage */ = {
+			isa = PBXGroup;
+			children = (
+				5A9523621C0169EB0070B4D2 /* AppDelegate.swift */,
+				5A9523641C0169EB0070B4D2 /* ViewController.swift */,
+				5A9523661C0169EB0070B4D2 /* Main.storyboard */,
+				5A9523691C0169EB0070B4D2 /* Assets.xcassets */,
+				5A95236B1C0169EB0070B4D2 /* LaunchScreen.storyboard */,
+				5A95236E1C0169EB0070B4D2 /* Info.plist */,
+			);
+			path = perm_storage;
+			sourceTree = "<group>";
+		};
+		5A9523761C0169EB0070B4D2 /* perm_storageTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9523771C0169EB0070B4D2 /* perm_storageTests.swift */,
+				5A9523791C0169EB0070B4D2 /* Info.plist */,
+			);
+			path = perm_storageTests;
+			sourceTree = "<group>";
+		};
+		5A9523811C0169EB0070B4D2 /* perm_storageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A9523821C0169EB0070B4D2 /* perm_storageUITests.swift */,
+				5A9523841C0169EB0070B4D2 /* Info.plist */,
+			);
+			path = perm_storageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A95235E1C0169EB0070B4D2 /* perm_storage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A9523871C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storage" */;
+			buildPhases = (
+				5A95235B1C0169EB0070B4D2 /* Sources */,
+				5A95235C1C0169EB0070B4D2 /* Frameworks */,
+				5A95235D1C0169EB0070B4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = perm_storage;
+			productName = perm_storage;
+			productReference = 5A95235F1C0169EB0070B4D2 /* perm_storage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A9523721C0169EB0070B4D2 /* perm_storageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A95238A1C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storageTests" */;
+			buildPhases = (
+				5A95236F1C0169EB0070B4D2 /* Sources */,
+				5A9523701C0169EB0070B4D2 /* Frameworks */,
+				5A9523711C0169EB0070B4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9523751C0169EB0070B4D2 /* PBXTargetDependency */,
+			);
+			name = perm_storageTests;
+			productName = perm_storageTests;
+			productReference = 5A9523731C0169EB0070B4D2 /* perm_storageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A95237D1C0169EB0070B4D2 /* perm_storageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A95238D1C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storageUITests" */;
+			buildPhases = (
+				5A95237A1C0169EB0070B4D2 /* Sources */,
+				5A95237B1C0169EB0070B4D2 /* Frameworks */,
+				5A95237C1C0169EB0070B4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A9523801C0169EB0070B4D2 /* PBXTargetDependency */,
+			);
+			name = perm_storageUITests;
+			productName = perm_storageUITests;
+			productReference = 5A95237E1C0169EB0070B4D2 /* perm_storageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A9523571C0169EB0070B4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Krish Venkat";
+				TargetAttributes = {
+					5A95235E1C0169EB0070B4D2 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					5A9523721C0169EB0070B4D2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5A95235E1C0169EB0070B4D2;
+					};
+					5A95237D1C0169EB0070B4D2 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 5A95235E1C0169EB0070B4D2;
+					};
+				};
+			};
+			buildConfigurationList = 5A95235A1C0169EB0070B4D2 /* Build configuration list for PBXProject "perm_storage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A9523561C0169EB0070B4D2;
+			productRefGroup = 5A9523601C0169EB0070B4D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A95235E1C0169EB0070B4D2 /* perm_storage */,
+				5A9523721C0169EB0070B4D2 /* perm_storageTests */,
+				5A95237D1C0169EB0070B4D2 /* perm_storageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A95235D1C0169EB0070B4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A95236D1C0169EB0070B4D2 /* LaunchScreen.storyboard in Resources */,
+				5A95236A1C0169EB0070B4D2 /* Assets.xcassets in Resources */,
+				5A9523681C0169EB0070B4D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A9523711C0169EB0070B4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A95237C1C0169EB0070B4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A95235B1C0169EB0070B4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9523651C0169EB0070B4D2 /* ViewController.swift in Sources */,
+				5A9523631C0169EB0070B4D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A95236F1C0169EB0070B4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9523781C0169EB0070B4D2 /* perm_storageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A95237A1C0169EB0070B4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A9523831C0169EB0070B4D2 /* perm_storageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A9523751C0169EB0070B4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A95235E1C0169EB0070B4D2 /* perm_storage */;
+			targetProxy = 5A9523741C0169EB0070B4D2 /* PBXContainerItemProxy */;
+		};
+		5A9523801C0169EB0070B4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A95235E1C0169EB0070B4D2 /* perm_storage */;
+			targetProxy = 5A95237F1C0169EB0070B4D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A9523661C0169EB0070B4D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A9523671C0169EB0070B4D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A95236B1C0169EB0070B4D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A95236C1C0169EB0070B4D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A9523851C0169EB0070B4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A9523861C0169EB0070B4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A9523881C0169EB0070B4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = perm_storage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5A9523891C0169EB0070B4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = perm_storage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5A95238B1C0169EB0070B4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = perm_storageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perm_storage.app/perm_storage";
+			};
+			name = Debug;
+		};
+		5A95238C1C0169EB0070B4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = perm_storageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/perm_storage.app/perm_storage";
+			};
+			name = Release;
+		};
+		5A95238E1C0169EB0070B4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = perm_storageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = perm_storage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5A95238F1C0169EB0070B4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = perm_storageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "net.krishlogic.perm-storageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = perm_storage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A95235A1C0169EB0070B4D2 /* Build configuration list for PBXProject "perm_storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9523851C0169EB0070B4D2 /* Debug */,
+				5A9523861C0169EB0070B4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A9523871C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A9523881C0169EB0070B4D2 /* Debug */,
+				5A9523891C0169EB0070B4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A95238A1C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A95238B1C0169EB0070B4D2 /* Debug */,
+				5A95238C1C0169EB0070B4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5A95238D1C0169EB0070B4D2 /* Build configuration list for PBXNativeTarget "perm_storageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A95238E1C0169EB0070B4D2 /* Debug */,
+				5A95238F1C0169EB0070B4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A9523571C0169EB0070B4D2 /* Project object */;
+}
