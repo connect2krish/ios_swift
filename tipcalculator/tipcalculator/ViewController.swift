@@ -18,6 +18,10 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var tipControl: UISegmentedControl!
     
+    @IBOutlet weak var numOfPeopleField: UITextField!
+    
+    @IBOutlet weak var splitLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -33,7 +37,18 @@ class ViewController: UIViewController {
     }
     
     @IBAction func calculateTip(sender: AnyObject) {
-        
+        calculateTip();
+    }
+    
+    @IBAction func calculateSplit(sender: AnyObject) {
+        calculateTip();
+    }
+    
+    @IBAction func calculateSplits(sender: AnyObject) {
+        calculateTip();
+    }
+    
+    func calculateTip() {
         let tipPercentages = [0.18, 0.20, 0.25];
         
         let bill = Double(billField.text!) ?? 0;
@@ -41,9 +56,23 @@ class ViewController: UIViewController {
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex];
         
         let totalBill = bill + tip;
-
+        
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", totalBill)
+        
+        //for split per person:
+        
+        var totalPeople = Double(numOfPeopleField.text!) ?? 1;
+        
+        if (totalPeople == 0) {
+            totalPeople = 1;
+//            splitLabel.text = String(totalPeople);
+        }
+        
+        let splits = totalBill / totalPeople;
+        
+        splitLabel.text = "Split per person: "+String(format: "$%.2f", splits);
+        
     }
 }
 
