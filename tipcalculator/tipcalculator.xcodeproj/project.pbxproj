@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AAC7AD91D91992B009F31BE /* DefaultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC7AD81D91992B009F31BE /* DefaultViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		5ABED4DB1D87B92800B3BC53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABED4DA1D87B92800B3BC53 /* AppDelegate.swift */; };
 		5ABED4DD1D87B92800B3BC53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABED4DC1D87B92800B3BC53 /* ViewController.swift */; };
 		5ABED4E01D87B92800B3BC53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABED4DE1D87B92800B3BC53 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AAC7AD81D91992B009F31BE /* DefaultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultViewController.swift; sourceTree = "<group>"; };
 		5ABED4D71D87B92800B3BC53 /* tipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABED4DA1D87B92800B3BC53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ABED4DC1D87B92800B3BC53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -41,10 +43,10 @@
 		5ABED4E11D87B92800B3BC53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ABED4E41D87B92800B3BC53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ABED4E61D87B92800B3BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ABED4EB1D87B92800B3BC53 /* tipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABED4EB1D87B92800B3BC53 /* tipcalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABED4EF1D87B92800B3BC53 /* tipcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalculatorTests.swift; sourceTree = "<group>"; };
 		5ABED4F11D87B92800B3BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ABED4F61D87B92800B3BC53 /* tipcalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABED4F61D87B92800B3BC53 /* tipcalculator.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipcalculator.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ABED4FA1D87B92800B3BC53 /* tipcalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipcalculatorUITests.swift; sourceTree = "<group>"; };
 		5ABED4FC1D87B92800B3BC53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				5ABED4D71D87B92800B3BC53 /* tipcalculator.app */,
-				5ABED4EB1D87B92800B3BC53 /* tipcalculatorTests.xctest */,
-				5ABED4F61D87B92800B3BC53 /* tipcalculatorUITests.xctest */,
+				5ABED4EB1D87B92800B3BC53 /* tipcalculator.xctest */,
+				5ABED4F61D87B92800B3BC53 /* tipcalculator.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,6 +105,7 @@
 				5ABED4E11D87B92800B3BC53 /* Assets.xcassets */,
 				5ABED4E31D87B92800B3BC53 /* LaunchScreen.storyboard */,
 				5ABED4E61D87B92800B3BC53 /* Info.plist */,
+				5AAC7AD81D91992B009F31BE /* DefaultViewController.swift */,
 			);
 			path = tipcalculator;
 			sourceTree = "<group>";
@@ -160,7 +163,7 @@
 			);
 			name = tipcalculatorTests;
 			productName = tipcalculatorTests;
-			productReference = 5ABED4EB1D87B92800B3BC53 /* tipcalculatorTests.xctest */;
+			productReference = 5ABED4EB1D87B92800B3BC53 /* tipcalculator.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5ABED4F51D87B92800B3BC53 /* tipcalculatorUITests */ = {
@@ -178,7 +181,7 @@
 			);
 			name = tipcalculatorUITests;
 			productName = tipcalculatorUITests;
-			productReference = 5ABED4F61D87B92800B3BC53 /* tipcalculatorUITests.xctest */;
+			productReference = 5ABED4F61D87B92800B3BC53 /* tipcalculator.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AAC7AD91D91992B009F31BE /* DefaultViewController.swift in Sources */,
 				5ABED4DD1D87B92800B3BC53 /* ViewController.swift in Sources */,
 				5ABED4DB1D87B92800B3BC53 /* AppDelegate.swift in Sources */,
 			);
@@ -399,7 +403,7 @@
 				INFOPLIST_FILE = tipcalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 			};
 			name = Debug;
 		};
@@ -410,7 +414,7 @@
 				INFOPLIST_FILE = tipcalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculator;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 			};
 			name = Release;
 		};
@@ -421,7 +425,7 @@
 				INFOPLIST_FILE = tipcalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipcalculator.app/tipcalculator";
 			};
 			name = Debug;
@@ -433,7 +437,7 @@
 				INFOPLIST_FILE = tipcalculatorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculatorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tipcalculator.app/tipcalculator";
 			};
 			name = Release;
@@ -444,7 +448,7 @@
 				INFOPLIST_FILE = tipcalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 				TEST_TARGET_NAME = tipcalculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -456,7 +460,7 @@
 				INFOPLIST_FILE = tipcalculatorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.krishlogic.tipcalculatorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = tipcalculator;
 				TEST_TARGET_NAME = tipcalculator;
 				USES_XCTRUNNER = YES;
 			};
@@ -481,6 +485,7 @@
 				5ABED5011D87B92800B3BC53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ABED5021D87B92800B3BC53 /* Build configuration list for PBXNativeTarget "tipcalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				5ABED5041D87B92800B3BC53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ABED5051D87B92800B3BC53 /* Build configuration list for PBXNativeTarget "tipcalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				5ABED5071D87B92800B3BC53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

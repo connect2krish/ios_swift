@@ -8,6 +8,8 @@
 
 import UIKit
 
+var tipControlIndex:Int = 0;
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var tipLabel: UILabel!
@@ -24,14 +26,22 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        setTipControl();
+        billField.becomeFirstResponder();
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    override func viewWillAppear(didAppear: Bool) {
+        super.viewWillAppear(didAppear);
+        setTipControl();
+        calculateTip();
+    }
+    
     @IBAction func onTap(sender: AnyObject) {
         view.endEditing(true);
     }
@@ -52,7 +62,7 @@ class ViewController: UIViewController {
         let tipPercentages = [0.18, 0.20, 0.25];
         
         let bill = Double(billField.text!) ?? 0;
-        
+
         let tip = bill * tipPercentages[tipControl.selectedSegmentIndex];
         
         let totalBill = bill + tip;
@@ -66,13 +76,30 @@ class ViewController: UIViewController {
         
         if (totalPeople == 0) {
             totalPeople = 1;
-//            splitLabel.text = String(totalPeople);
         }
         
         let splits = totalBill / totalPeople;
         
         splitLabel.text = "Split per person: "+String(format: "$%.2f", splits);
         
+    }
+    
+    func setTipControl() {
+        let defaults = NSUserDefaults.standardUserDefaults();
+        
+        var defaultIndex = defaults.objectForKey("tipDefault");
+        
+        defaultIndex = defaultIndex!;
+        
+        if (defaultIndex == nil) {
+            defaultIndex = 0;
+            tipControl.selectedSegmentIndex = 0;
+        }
+        
+        defaults.setObject(defaultIndex, forKey: "tipDefault");
+        tipControl.selectedSegmentIndex = defaults.objectForKey("tipDefault") as! NSInteger;
+        
+        tipControlIndex = tipControl.selectedSegmentIndex;
     }
 }
 
