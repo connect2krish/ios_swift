@@ -36,9 +36,7 @@ class DefaultViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults();
         
         var defaultIndex = defaults.objectForKey("tipDefault");
-        
-        defaultIndex = defaultIndex!;
-        
+                
         if (defaultIndex == nil) {
             defaultIndex = 0;
             segmentedTipSelector.selectedSegmentIndex = 0;

@@ -89,8 +89,6 @@ class ViewController: UIViewController {
         
         var defaultIndex = defaults.objectForKey("tipDefault");
         
-        defaultIndex = defaultIndex!;
-        
         if (defaultIndex == nil) {
             defaultIndex = 0;
             tipControl.selectedSegmentIndex = 0;
